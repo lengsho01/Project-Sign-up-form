@@ -12,6 +12,7 @@ body{
 img{
     width: 100%;
     object-fit: cover;
+    height: auto;
 }
 .form-bg{
     margin: 0;
@@ -20,19 +21,53 @@ img{
     height: 100vh;
     background-image: url(media/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+
 }
 .form-logo{
     width: 100%;
     margin-top: 20%;
-    background: #0000005e;
+    background: #000000a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: clamp(1.5em, 7vh, 5em);
 
 }
 .logo{
-    width: 100%;
-    height: 30%;
+    width: 10%;
+    
+}
+P{
 }
 .main-form{
-    width: 60%;
+    margin: 0 auto;
+    padding: 15% 0 ;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.form{
+    width: 100%;
+    background-color: rgb(241, 246, 250);
+    padding: 20px 0;
+}
+div2{
+    margin-left: 3em;
+}
+label{
+    display: block;
+}
+input:valid{
+    border: 1px solid blue;
+}
+input:invalid{
+    border: 1px solid red;
+}
+.form-box{
+    display: flex;
 }

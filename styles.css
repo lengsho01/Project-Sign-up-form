@@ -2,6 +2,10 @@
     box-sizing: border-box;
 
 }
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
 body{
     margin: 0;
     font-size: large;
@@ -35,7 +39,7 @@ img{
     align-items: center;
     color: aliceblue;
     font-size: clamp(1.5em, 7vh, 5em);
-
+    font-family: "Norse-Bold", sans-serif;
 }
 .logo{
     width: 10%;
@@ -79,6 +83,9 @@ label{
 }
 input{
     border-radius: .3em ;
+}
+input:focus{
+    border:1px solid blue ;
 }
 input:invalid{
     border: 1px solid red;

@@ -53,6 +53,7 @@ img{
 .call-to-action-wrapper{
     width: 100%;
     margin-bottom: 1em;
+    font-weight: 600;
     
 }
 .call-to-action{
@@ -76,8 +77,8 @@ div2{
 label{
     display: block;
 }
-input:valid{
-    border: 1px solid blue;
+input{
+    border-radius: .3em ;
 }
 input:invalid{
     border: 1px solid red;
